@@ -18,10 +18,206 @@
         <p class="title">
           MoonTrade
         </p>
+        <p class="subtitle">
+          Portfolio
+        </p>
       </div>
     </section>
 
-    <script src="script.js" type="text/javascript" defer></script>
+    <!-- Navbar -->
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <p class = "navbar-item card-header-title">
+                    MoonTrade
+                </p>
+            <a class="navbar-item" href="/index.html">
+                Portfolio
+            </a>
+
+            <a class="navbar-item" href="/search.html">
+                Search
+            </a>
+            </div>
+
+            <div class="navbar-end">
+            <div class="navbar-item">
+                <div class="buttons">
+                <a class="button is-link">
+                    <strong>Sign out</strong>
+                </a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Data Visuals -->
+    <div class="columns">
+        <div class="column m-5">
+            <p class="title is-1">
+                $100,000
+            </p>
+            <p class="subtitle is-3">
+                +124.98 (+1.26%) Today
+            </p>
+        </div>
+        <div class="column m-5">
+            <img src="https://disorthodox.files.wordpress.com/2017/06/bitcoin-mining-pool-hash-rate-distribution.png?w\u003d450" alt="stock data" width="350" height="auto">
+        </div>
+        <div class="column m-5">
+            <p class="subtitle is-5">
+                Invested: $98,231.28
+            </p>
+            <p class="subtitle is-5">
+                Cash: $2,000.19
+            </p>
+        </div>
+    </div>
+
+    <!-- Coins Owned and Live Chat -->
+    <div class="columns">
+        <div class="column auto">
+            <div class="card m-5">
+                <header class="card-header">
+                    <p class="card-header-title is-size-5">
+                    Coins Owned
+                    </p>
+                </header>
+                <div class="card">
+                    <header class="card-header">
+                        <p class="card-header-title ">
+                        BTC
+                        </p>
+                        <p class="card-header-title ">
+                        $40,000 (+1.26%)
+                        </p>
+                        <button class="card-header-icon" aria-label="more options">
+                        Sell
+                        </button>
+                    </header>
+                </div>
+                <div class="card">
+                    <header class="card-header">
+                        <p class="card-header-title ">
+                        BTC
+                        </p>
+                        <p class="card-header-title ">
+                        $40,000 (+1.26%)
+                        </p>
+                        <button class="card-header-icon" aria-label="more options">
+                        Sell
+                        </button>
+                    </header>
+                </div>
+                <div class="card">
+                    <header class="card-header">
+                        <p class="card-header-title ">
+                        BTC
+                        </p>
+                        <p class="card-header-title ">
+                        $40,000 (+1.26%)
+                        </p>
+                        <button class="card-header-icon" aria-label="more options">
+                        Sell
+                        </button>
+                    </header>
+                </div>
+            </div>
+        </div>
+        <div class="column is-one-third">
+            <div class="card m-5 is-centered">
+                <header class="card-header">
+                    <p class="card-header-title is-size-5">
+                    Live Chat
+                    </p>
+                </header>
+                <textarea class="textarea m-2" placeholder="Chat Placeholder"></textarea>
+            </div>
+        </div>
+    </div>
+
+    <!-- Order History -->
+    <div class="columns">
+        <div class="column auto">
+            <div class="card m-5">
+                <header class="card-header">
+                    <p class="card-header-title is-size-5">
+                    Order History
+                    </p>
+                </header>
+                <div class="card">
+                    <header class="card-header">
+                        <p class="card-header-title ">
+                        BTC
+                        </p>
+                        <p class="card-header-title ">
+                        $40,000
+                        </p>
+                        <p class="card-header-title ">
+                        # of shares
+                        </p>
+                        <p class="card-header-title ">
+                        Day % Change
+                        </p>
+                        <p class="card-header-title ">
+                        Volume
+                        </p>
+                    </header>
+                </div>
+                <div class="card">
+                    <header class="card-header">
+                        <p class="card-header-title ">
+                        BTC
+                        </p>
+                        <p class="card-header-title ">
+                        $40,000
+                        </p>
+                        <p class="card-header-title ">
+                        # of shares
+                        </p>
+                        <p class="card-header-title ">
+                        Day % Change
+                        </p>
+                        <p class="card-header-title ">
+                        Volume
+                        </p>
+                    </header>
+                </div>
+                <div class="card">
+                    <header class="card-header">
+                        <p class="card-header-title ">
+                        BTC
+                        </p>
+                        <p class="card-header-title ">
+                        $40,000
+                        </p>
+                        <p class="card-header-title ">
+                        # of shares
+                        </p>
+                        <p class="card-header-title ">
+                        Day % Change
+                        </p>
+                        <p class="card-header-title ">
+                        Volume
+                        </p>
+                    </header>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+    <script src="js/script.js" type="text/javascript" defer></script>
 </body>
+
+
 
 </html>
